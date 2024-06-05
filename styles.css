@@ -1,0 +1,76 @@
+Hugo XuHao
+/* Basic style settings */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    font-size: 100%; /* Set based on the user's default browser settings */
+    color: #555753; /* Grey color for text */
+    background: #fff url('http://csszengarden.com/001/blossoms.jpg') no-repeat bottom right; /* Background with floral image */
+}
+
+/* Global text and link styles */
+p, h1, h2, h3, li {
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited {
+    font-weight: bold; /* Bold text for links */
+    text-decoration: none; /* No underline by default */
+    color: #B7A5DF; /* Soft purple color for links */
+}
+a:hover, a:focus, a:active {
+    text-decoration: underline; /* Underline on hover, focus, or active */
+    color: #9685BA; /* Darker purple when interacting */
+}
+
+/* Page body layout */
+.header, .main, .footer {
+    max-width: 1200px; /* Limiting maximum width for large screens */
+    margin: 0 auto; /* Centering the content horizontally */
+    padding: 0 20px; /* Padding on both sides */
+}
+
+/* Header and navigation styles */
+.header {
+    background-color: #003366; /* Navy blue background */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+}
+.navbar {
+    display: flex; /* Flexbox for horizontal layout */
+    list-style: none; /* No bullet points */
+    padding: 10px 0;
+}
+.navbar li {
+    padding: 0 10px; /* Spacing between navigation items */
+}
+.navbar li a {
+    color: #ffffff; /* White text for navigation links */
+}
+
+/* Main section styles */
+.section {
+    background: #ffffff; /* White background for sections */
+    padding: 20px; /* Padding inside sections */
+    margin: 20px 0; /* Vertical spacing between sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Footer styles */
+.footer {
+    text-align: center; /* Center-aligned text */
+    padding: 20px 0;
+    margin-top: 20px; /* Space above footer */
+    background-color: #003366; /* Consistent navy blue background */
+    color: #ffffff; /* White text color in footer */
+}
+
+/* Specific beautification and background effects */
+.extra-visuals {
+    background: url('http://csszengarden.com/001/zen-bg.jpg') no-repeat top left; /* Background image for visual effect */
+    margin: 0;
+    padding: 0 175px; /* Extra padding to ensure content does not touch the screen edges */
+}
